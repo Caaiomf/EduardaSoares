@@ -93,8 +93,8 @@ const projectDefaults = {
     summary: "Fachada residencial com composição de planos, aberturas e materialidade clara.",
     coverIncludes: "FACHADA 02 - 01",
   },
-  Marcelo: {
-    title: "Residência Marcelo",
+  Interior: {
+    title: "Residência Interior",
     category: "residencial",
     categoryLabel: "Residencial",
     type: "Residencial completo",

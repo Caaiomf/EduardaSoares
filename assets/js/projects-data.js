@@ -291,155 +291,155 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "marcelo",
     "folder": "Marcelo",
-    "title": "Residência Marcelo",
-    "category": "residencial",
-    "categoryLabel": "Residencial",
-    "type": "Residencial completo",
+    "title": "Projeto de Interior",
+    "category": "interiores",
+    "categoryLabel": "Interiores",
+    "type": "Interiores residenciais",
     "year": "2025",
     "summary": "Sequência de estudos, finais e imagens de acompanhamento para projeto residencial.",
     "cover": "Portifolio/Marcelo/Final -01.png",
-    "coverAlt": "Residência Marcelo - Residencial completo - Final",
+    "coverAlt": "Projeto de Interior - Interiores residenciais - Final",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/Marcelo/Final -01.png",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -02.png",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -03.png",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -04.png",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -05.png",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -06.png",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -07.png",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -01.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -02.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -03.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -04.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -05.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -06.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -07.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 01.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 02.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 03 - Pho.png",
-        "alt": "Residência Marcelo - Residencial completo - Imagem Final Pho"
+        "alt": "Projeto de Interior - Interiores residenciais - Imagem Final Pho"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 03.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem FInal 04.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 05.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 06.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
+        "alt": "Projeto de Interior - Interiores residenciais - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (1).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (2).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (3).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (4).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . ."
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.33 (1).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.33 (2).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.33.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . ."
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-21 at 13.41.11 (1).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.20 (1).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.20.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . ."
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.21 (1).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.21 (2).jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.21.jpeg",
-        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
+        "alt": "Projeto de Interior - Interiores residenciais - Whatsapp Image At . ."
       }
     ]
   },

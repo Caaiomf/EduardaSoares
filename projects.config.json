@@ -73,10 +73,10 @@
     "coverIncludes": "FACHADA 02 - 01"
   },
   "Marcelo": {
-    "title": "Residência Marcelo",
-    "category": "residencial",
-    "categoryLabel": "Residencial",
-    "type": "Residencial completo",
+    "title": "Projeto de Interior",
+    "category": "interiores",
+    "categoryLabel": "Interiores",
+    "type": "Interiores residenciais",
     "year": "2025",
     "summary": "Sequência de estudos, finais e imagens de acompanhamento para projeto residencial.",
     "coverIncludes": "Final -01"
