@@ -1,0 +1,17 @@
+{
+  "name": "Eduarda Soares Arquitetura e Urbanismo",
+  "short_name": "Eduarda Soares",
+  "description": "Portfolio de arquitetura e urbanismo em Birigui, Aracatuba e regiao.",
+  "lang": "pt-BR",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#34431d",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

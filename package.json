@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "add:project": "node scripts/new-project.js",
     "build:data": "node scripts/build-project-data.js",
-    "review": "node review-playwright.js"
+    "review": "node review-playwright.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.1.1"
   }
 }

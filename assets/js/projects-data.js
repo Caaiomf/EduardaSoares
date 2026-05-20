@@ -3,81 +3,81 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "aline-e-flavio",
     "folder": "Aline e Flavio",
-    "title": "Residencia Aline e Flavio",
+    "title": "Residência Aline e Flávio",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Fachada residencial",
     "year": "2026",
-    "summary": "Estudo de fachada com volume limpo, aberturas verticais e composicao contemporanea.",
+    "summary": "Estudo de fachada com volume limpo, aberturas verticais e composição contemporânea.",
     "cover": "Portifolio/Aline e Flavio/FACHADA 01- 01.png",
-    "coverAlt": "Residencia Aline e Flavio - FACHADA 01- 01",
+    "coverAlt": "Residência Aline e Flávio - Fachada residencial - Fachada",
     "featured": true,
     "images": [
       {
         "src": "Portifolio/Aline e Flavio/FACHADA 01- 01.png",
-        "alt": "Residencia Aline e Flavio - FACHADA 01- 01"
+        "alt": "Residência Aline e Flávio - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/Aline e Flavio/FACHADA 01- 02.png",
-        "alt": "Residencia Aline e Flavio - FACHADA 01- 02"
+        "alt": "Residência Aline e Flávio - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/Aline e Flavio/FACHADA 01- 03.png",
-        "alt": "Residencia Aline e Flavio - FACHADA 01- 03"
+        "alt": "Residência Aline e Flávio - Fachada residencial - Fachada"
       }
     ]
   },
   {
     "id": "claverson",
     "folder": "Claverson",
-    "title": "Residencia Claverson",
+    "title": "Residência Claverson",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Fachada residencial",
     "year": "2026",
-    "summary": "Proposta de fachada com leitura horizontal e materiais de baixa manutencao.",
+    "summary": "Proposta de fachada com leitura horizontal e materiais de baixa manutenção.",
     "cover": "Portifolio/Claverson/Fachada 01 - 01.png",
-    "coverAlt": "Residencia Claverson - Fachada 01 - 01",
+    "coverAlt": "Residência Claverson - Fachada residencial - Fachada",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/Claverson/Fachada 01 - 01.png",
-        "alt": "Residencia Claverson - Fachada 01 - 01"
+        "alt": "Residência Claverson - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/Claverson/Fachada 01 - 02.png",
-        "alt": "Residencia Claverson - Fachada 01 - 02"
+        "alt": "Residência Claverson - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/Claverson/Fachada 01 - 03.png",
-        "alt": "Residencia Claverson - Fachada 01 - 03"
+        "alt": "Residência Claverson - Fachada residencial - Fachada"
       }
     ]
   },
   {
     "id": "dennis",
     "folder": "Dennis",
-    "title": "Residencia Dennis",
+    "title": "Residência Dennis",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Fachada residencial",
     "year": "2026",
-    "summary": "Composicao frontal com aberturas ritmadas, sombra e presenca urbana.",
+    "summary": "Composição frontal com aberturas ritmadas, sombra e presença urbana.",
     "cover": "Portifolio/Dennis/FACHADA 01 - 01.png",
-    "coverAlt": "Residencia Dennis - FACHADA 01 - 01",
+    "coverAlt": "Residência Dennis - Fachada residencial - Fachada",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/Dennis/FACHADA 01 - 01.png",
-        "alt": "Residencia Dennis - FACHADA 01 - 01"
+        "alt": "Residência Dennis - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/Dennis/FACHADA 01 - 02.png",
-        "alt": "Residencia Dennis - FACHADA 01 - 02"
+        "alt": "Residência Dennis - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/Dennis/FACHADA 01 - 03.png",
-        "alt": "Residencia Dennis - FACHADA 01 - 03"
+        "alt": "Residência Dennis - Fachada residencial - Fachada"
       }
     ]
   },
@@ -89,53 +89,53 @@ window.PORTFOLIO_PROJECTS = [
     "categoryLabel": "Residencial",
     "type": "Estudo residencial",
     "year": "2025",
-    "summary": "Estudo de volumetria, acesso e materialidade para uma residencia compacta.",
+    "summary": "Estudo de volumetria, acesso e materialidade para uma residência compacta.",
     "cover": "Portifolio/DIEMINI/Final 01.png",
-    "coverAlt": "Projeto Diemini - Final 01",
+    "coverAlt": "Projeto Diemini - Estudo residencial - Final",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/DIEMINI/Final 01.png",
-        "alt": "Projeto Diemini - Final 01"
+        "alt": "Projeto Diemini - Estudo residencial - Final"
       },
       {
         "src": "Portifolio/DIEMINI/Final 02.png",
-        "alt": "Projeto Diemini - Final 02"
+        "alt": "Projeto Diemini - Estudo residencial - Final"
       },
       {
         "src": "Portifolio/DIEMINI/Final 03.png",
-        "alt": "Projeto Diemini - Final 03"
+        "alt": "Projeto Diemini - Estudo residencial - Final"
       }
     ]
   },
   {
     "id": "edvaldo",
     "folder": "EDVALDO",
-    "title": "Residencia Edvaldo",
+    "title": "Residência Edvaldo",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Residencial",
     "year": "2025",
-    "summary": "Projeto residencial com imagens de apoio para apresentacao e tomada de decisao.",
+    "summary": "Projeto residencial com imagens de apoio para apresentação e tomada de decisão.",
     "cover": "Portifolio/EDVALDO/Foto 01.png",
-    "coverAlt": "Residencia Edvaldo - Foto 01",
+    "coverAlt": "Residência Edvaldo - Residencial - Foto",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/EDVALDO/Foto 01.png",
-        "alt": "Residencia Edvaldo - Foto 01"
+        "alt": "Residência Edvaldo - Residencial - Foto"
       },
       {
         "src": "Portifolio/EDVALDO/Foto 02.png",
-        "alt": "Residencia Edvaldo - Foto 02"
+        "alt": "Residência Edvaldo - Residencial - Foto"
       },
       {
         "src": "Portifolio/EDVALDO/Foto 03.png",
-        "alt": "Residencia Edvaldo - Foto 03"
+        "alt": "Residência Edvaldo - Residencial - Foto"
       },
       {
         "src": "Portifolio/EDVALDO/Postagem.png",
-        "alt": "Residencia Edvaldo - Postagem"
+        "alt": "Residência Edvaldo - Residencial - Postagem"
       }
     ]
   },
@@ -147,90 +147,90 @@ window.PORTFOLIO_PROJECTS = [
     "categoryLabel": "Interiores",
     "type": "Ambientes residenciais",
     "year": "2025",
-    "summary": "Conjunto de ambientes internos e externos: escritorio, garagem, lavabo, piscina e varanda.",
+    "summary": "Conjunto de ambientes internos e externos: escritório, garagem, lavabo, piscina e varanda.",
     "cover": "Portifolio/Elaine/piscina 01.png",
-    "coverAlt": "Casa Elaine - piscina 01",
+    "coverAlt": "Casa Elaine - Ambientes residenciais - Piscina",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/Elaine/escritorio 01.png",
-        "alt": "Casa Elaine - escritorio 01"
+        "alt": "Casa Elaine - Ambientes residenciais - Escritorio"
       },
       {
         "src": "Portifolio/Elaine/escritorio 02.png",
-        "alt": "Casa Elaine - escritorio 02"
+        "alt": "Casa Elaine - Ambientes residenciais - Escritorio"
       },
       {
         "src": "Portifolio/Elaine/escritorio 03.png",
-        "alt": "Casa Elaine - escritorio 03"
+        "alt": "Casa Elaine - Ambientes residenciais - Escritorio"
       },
       {
         "src": "Portifolio/Elaine/escritorio 04.png",
-        "alt": "Casa Elaine - escritorio 04"
+        "alt": "Casa Elaine - Ambientes residenciais - Escritorio"
       },
       {
         "src": "Portifolio/Elaine/garagem 01.png",
-        "alt": "Casa Elaine - garagem 01"
+        "alt": "Casa Elaine - Ambientes residenciais - Garagem"
       },
       {
         "src": "Portifolio/Elaine/garagem 02.png",
-        "alt": "Casa Elaine - garagem 02"
+        "alt": "Casa Elaine - Ambientes residenciais - Garagem"
       },
       {
         "src": "Portifolio/Elaine/garagem 03.png",
-        "alt": "Casa Elaine - garagem 03"
+        "alt": "Casa Elaine - Ambientes residenciais - Garagem"
       },
       {
         "src": "Portifolio/Elaine/garagem 04.png",
-        "alt": "Casa Elaine - garagem 04"
+        "alt": "Casa Elaine - Ambientes residenciais - Garagem"
       },
       {
         "src": "Portifolio/Elaine/lavabo 01.png",
-        "alt": "Casa Elaine - lavabo 01"
+        "alt": "Casa Elaine - Ambientes residenciais - Lavabo"
       },
       {
         "src": "Portifolio/Elaine/lavabo 02.png",
-        "alt": "Casa Elaine - lavabo 02"
+        "alt": "Casa Elaine - Ambientes residenciais - Lavabo"
       },
       {
         "src": "Portifolio/Elaine/lavanderia 01.png",
-        "alt": "Casa Elaine - lavanderia 01"
+        "alt": "Casa Elaine - Ambientes residenciais - Lavanderia"
       },
       {
         "src": "Portifolio/Elaine/lavanderia 02.png",
-        "alt": "Casa Elaine - lavanderia 02"
+        "alt": "Casa Elaine - Ambientes residenciais - Lavanderia"
       },
       {
         "src": "Portifolio/Elaine/piscina 01.png",
-        "alt": "Casa Elaine - piscina 01"
+        "alt": "Casa Elaine - Ambientes residenciais - Piscina"
       },
       {
         "src": "Portifolio/Elaine/piscina 02.png",
-        "alt": "Casa Elaine - piscina 02"
+        "alt": "Casa Elaine - Ambientes residenciais - Piscina"
       },
       {
         "src": "Portifolio/Elaine/piscina 03.png",
-        "alt": "Casa Elaine - piscina 03"
+        "alt": "Casa Elaine - Ambientes residenciais - Piscina"
       },
       {
         "src": "Portifolio/Elaine/piscina 04.png",
-        "alt": "Casa Elaine - piscina 04"
+        "alt": "Casa Elaine - Ambientes residenciais - Piscina"
       },
       {
         "src": "Portifolio/Elaine/varanda 01.png",
-        "alt": "Casa Elaine - varanda 01"
+        "alt": "Casa Elaine - Ambientes residenciais - Varanda"
       },
       {
         "src": "Portifolio/Elaine/varanda 02.png",
-        "alt": "Casa Elaine - varanda 02"
+        "alt": "Casa Elaine - Ambientes residenciais - Varanda"
       },
       {
         "src": "Portifolio/Elaine/varanda 03.png",
-        "alt": "Casa Elaine - varanda 03"
+        "alt": "Casa Elaine - Ambientes residenciais - Varanda"
       },
       {
         "src": "Portifolio/Elaine/varanda 04.png",
-        "alt": "Casa Elaine - varanda 04"
+        "alt": "Casa Elaine - Ambientes residenciais - Varanda"
       }
     ]
   },
@@ -242,204 +242,204 @@ window.PORTFOLIO_PROJECTS = [
     "categoryLabel": "Comercial",
     "type": "Projeto comercial",
     "year": "2025",
-    "summary": "Estudo comercial para loja, fachada e apresentacao de conceito.",
+    "summary": "Estudo comercial para loja, fachada e apresentação de conceito.",
     "cover": "Portifolio/IDAIR - LOJA/FINAL 01 - 01.png",
-    "coverAlt": "Loja Idair - FINAL 01 - 01",
+    "coverAlt": "Loja Idair - Projeto comercial - Final",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/IDAIR - LOJA/FINAL 01 - 01.png",
-        "alt": "Loja Idair - FINAL 01 - 01"
+        "alt": "Loja Idair - Projeto comercial - Final"
       },
       {
         "src": "Portifolio/IDAIR - LOJA/FINAL 01 - 02.png",
-        "alt": "Loja Idair - FINAL 01 - 02"
+        "alt": "Loja Idair - Projeto comercial - Final"
       },
       {
         "src": "Portifolio/IDAIR - LOJA/FINAL 01 - 03.png",
-        "alt": "Loja Idair - FINAL 01 - 03"
+        "alt": "Loja Idair - Projeto comercial - Final"
       }
     ]
   },
   {
     "id": "juliana",
     "folder": "JULIANA",
-    "title": "Residencia Juliana",
+    "title": "Residência Juliana",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Fachada residencial",
     "year": "2025",
-    "summary": "Fachada residencial com composicao de planos, aberturas e materialidade clara.",
+    "summary": "Fachada residencial com composição de planos, aberturas e materialidade clara.",
     "cover": "Portifolio/JULIANA/FACHADA 02 - 01 FINAL.png",
-    "coverAlt": "Residencia Juliana - FACHADA 02 - 01 FINAL",
+    "coverAlt": "Residência Juliana - Fachada residencial - Fachada Final",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/JULIANA/FACHADA 02 - 01 FINAL.png",
-        "alt": "Residencia Juliana - FACHADA 02 - 01 FINAL"
+        "alt": "Residência Juliana - Fachada residencial - Fachada Final"
       },
       {
         "src": "Portifolio/JULIANA/FACHADA 02 - 02 FINAL.png",
-        "alt": "Residencia Juliana - FACHADA 02 - 02 FINAL"
+        "alt": "Residência Juliana - Fachada residencial - Fachada Final"
       },
       {
         "src": "Portifolio/JULIANA/FACHADA 02 - 03 FINAL.png",
-        "alt": "Residencia Juliana - FACHADA 02 - 03 FINAL"
+        "alt": "Residência Juliana - Fachada residencial - Fachada Final"
       }
     ]
   },
   {
     "id": "marcelo",
     "folder": "Marcelo",
-    "title": "Residencia Marcelo",
+    "title": "Residência Marcelo",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Residencial completo",
     "year": "2025",
-    "summary": "Sequencia de estudos, finais e imagens de acompanhamento para projeto residencial.",
+    "summary": "Sequência de estudos, finais e imagens de acompanhamento para projeto residencial.",
     "cover": "Portifolio/Marcelo/Final -01.png",
-    "coverAlt": "Residencia Marcelo - Final -01",
+    "coverAlt": "Residência Marcelo - Residencial completo - Final",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/Marcelo/Final -01.png",
-        "alt": "Residencia Marcelo - Final -01"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -02.png",
-        "alt": "Residencia Marcelo - Final -02"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -03.png",
-        "alt": "Residencia Marcelo - Final -03"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -04.png",
-        "alt": "Residencia Marcelo - Final -04"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -05.png",
-        "alt": "Residencia Marcelo - Final -05"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -06.png",
-        "alt": "Residencia Marcelo - Final -06"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final -07.png",
-        "alt": "Residencia Marcelo - Final -07"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -01.jpeg",
-        "alt": "Residencia Marcelo - Final 02 -01"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -02.jpeg",
-        "alt": "Residencia Marcelo - Final 02 -02"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -03.jpeg",
-        "alt": "Residencia Marcelo - Final 02 -03"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -04.jpeg",
-        "alt": "Residencia Marcelo - Final 02 -04"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -05.jpeg",
-        "alt": "Residencia Marcelo - Final 02 -05"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -06.jpeg",
-        "alt": "Residencia Marcelo - Final 02 -06"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Final 02 -07.jpeg",
-        "alt": "Residencia Marcelo - Final 02 -07"
+        "alt": "Residência Marcelo - Residencial completo - Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 01.jpeg",
-        "alt": "Residencia Marcelo - Imagem Final 01"
+        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 02.jpeg",
-        "alt": "Residencia Marcelo - Imagem Final 02"
+        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 03 - Pho.png",
-        "alt": "Residencia Marcelo - Imagem Final 03 - Pho"
+        "alt": "Residência Marcelo - Residencial completo - Imagem Final Pho"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 03.jpeg",
-        "alt": "Residencia Marcelo - Imagem Final 03"
+        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem FInal 04.jpeg",
-        "alt": "Residencia Marcelo - Imagem FInal 04"
+        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 05.jpeg",
-        "alt": "Residencia Marcelo - Imagem Final 05"
+        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/Imagem Final 06.jpeg",
-        "alt": "Residencia Marcelo - Imagem Final 06"
+        "alt": "Residência Marcelo - Residencial completo - Imagem Final"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (1).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.32 (1)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (2).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.32 (2)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (3).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.32 (3)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32 (4).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.32 (4)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.32.jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.32"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.33 (1).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.33 (1)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.33 (2).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.33 (2)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-12 at 13.55.33.jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-12 at 13.55.33"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-03-21 at 13.41.11 (1).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-03-21 at 13.41.11 (1)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.20 (1).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-04-16 at 13.02.20 (1)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.20.jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-04-16 at 13.02.20"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.21 (1).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-04-16 at 13.02.21 (1)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.21 (2).jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-04-16 at 13.02.21 (2)"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . . ( )"
       },
       {
         "src": "Portifolio/Marcelo/WhatsApp Image 2025-04-16 at 13.02.21.jpeg",
-        "alt": "Residencia Marcelo - WhatsApp Image 2025-04-16 at 13.02.21"
+        "alt": "Residência Marcelo - Residencial completo - Whatsapp Image At . ."
       }
     ]
   },
@@ -451,41 +451,41 @@ window.PORTFOLIO_PROJECTS = [
     "categoryLabel": "Estudo",
     "type": "Estudo de projeto",
     "year": "2025",
-    "summary": "Imagem de estudo para avaliacao de conceito e comunicacao da proposta.",
+    "summary": "Imagem de estudo para avaliação de conceito e comunicação da proposta.",
     "cover": "Portifolio/PEDRO/Duda 4.png",
-    "coverAlt": "Estudo Pedro - Duda 4",
+    "coverAlt": "Estudo Pedro - Estudo de projeto - Duda",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/PEDRO/Duda 4.png",
-        "alt": "Estudo Pedro - Duda 4"
+        "alt": "Estudo Pedro - Estudo de projeto - Duda"
       }
     ]
   },
   {
     "id": "renan",
     "folder": "RENAN",
-    "title": "Residencia Renan",
+    "title": "Residência Renan",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Render final",
     "year": "2025",
-    "summary": "Renders finais para apresentacao de proposta residencial.",
+    "summary": "Renders finais para apresentação de proposta residencial.",
     "cover": "Portifolio/RENAN/RENDER FINAL FINAL 02 - 01.png",
-    "coverAlt": "Residencia Renan - RENDER FINAL FINAL 02 - 01",
+    "coverAlt": "Residência Renan - Render final - Render Final Final",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/RENAN/RENDER FINAL FINAL 02 - 01.png",
-        "alt": "Residencia Renan - RENDER FINAL FINAL 02 - 01"
+        "alt": "Residência Renan - Render final - Render Final Final"
       },
       {
         "src": "Portifolio/RENAN/RENDER FINAL FINAL 02 - 02.png",
-        "alt": "Residencia Renan - RENDER FINAL FINAL 02 - 02"
+        "alt": "Residência Renan - Render final - Render Final Final"
       },
       {
         "src": "Portifolio/RENAN/RENDER FINAL FINAL 02 - 03.png",
-        "alt": "Residencia Renan - RENDER FINAL FINAL 02 - 03"
+        "alt": "Residência Renan - Render final - Render Final Final"
       }
     ]
   },
@@ -499,79 +499,79 @@ window.PORTFOLIO_PROJECTS = [
     "year": "2025",
     "summary": "Projeto com cozinha, sala de TV e fachada, conectando interiores e linguagem externa.",
     "cover": "Portifolio/THALES E SARA/FACHADA 02 - 01.png",
-    "coverAlt": "Casa Thales e Sara - FACHADA 02 - 01",
+    "coverAlt": "Casa Thales e Sara - Residencial e interiores - Fachada",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/THALES E SARA/COZINHA - 01.png",
-        "alt": "Casa Thales e Sara - COZINHA - 01"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Cozinha"
       },
       {
         "src": "Portifolio/THALES E SARA/COZINHA - 02.png",
-        "alt": "Casa Thales e Sara - COZINHA - 02"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Cozinha"
       },
       {
         "src": "Portifolio/THALES E SARA/COZINHA - 03.png",
-        "alt": "Casa Thales e Sara - COZINHA - 03"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Cozinha"
       },
       {
         "src": "Portifolio/THALES E SARA/COZINHA - 04.png",
-        "alt": "Casa Thales e Sara - COZINHA - 04"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Cozinha"
       },
       {
         "src": "Portifolio/THALES E SARA/FACHADA 02 - 01.png",
-        "alt": "Casa Thales e Sara - FACHADA 02 - 01"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Fachada"
       },
       {
         "src": "Portifolio/THALES E SARA/FACHADA 02 - 02.png",
-        "alt": "Casa Thales e Sara - FACHADA 02 - 02"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Fachada"
       },
       {
         "src": "Portifolio/THALES E SARA/FACHADA 02 - 03.png",
-        "alt": "Casa Thales e Sara - FACHADA 02 - 03"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Fachada"
       },
       {
         "src": "Portifolio/THALES E SARA/SALA DE TV - 01.png",
-        "alt": "Casa Thales e Sara - SALA DE TV - 01"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Sala De Tv"
       },
       {
         "src": "Portifolio/THALES E SARA/SALA DE TV - 02.png",
-        "alt": "Casa Thales e Sara - SALA DE TV - 02"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Sala De Tv"
       },
       {
         "src": "Portifolio/THALES E SARA/SALA DE TV - 03.png",
-        "alt": "Casa Thales e Sara - SALA DE TV - 03"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Sala De Tv"
       },
       {
         "src": "Portifolio/THALES E SARA/SALA DE TV - 04.png",
-        "alt": "Casa Thales e Sara - SALA DE TV - 04"
+        "alt": "Casa Thales e Sara - Residencial e interiores - Sala De Tv"
       }
     ]
   },
   {
     "id": "willian",
     "folder": "WILLIAN",
-    "title": "Residencia Willian",
+    "title": "Residência Willian",
     "category": "residencial",
     "categoryLabel": "Residencial",
     "type": "Fachada residencial",
     "year": "2025",
-    "summary": "Estudos de fachada para residencia com tres alternativas de visualizacao.",
+    "summary": "Estudos de fachada para residência com três alternativas de visualização.",
     "cover": "Portifolio/WILLIAN/FACHADA 01.png",
-    "coverAlt": "Residencia Willian - FACHADA 01",
+    "coverAlt": "Residência Willian - Fachada residencial - Fachada",
     "featured": false,
     "images": [
       {
         "src": "Portifolio/WILLIAN/FACHADA 01.png",
-        "alt": "Residencia Willian - FACHADA 01"
+        "alt": "Residência Willian - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/WILLIAN/FACHADA 02.png",
-        "alt": "Residencia Willian - FACHADA 02"
+        "alt": "Residência Willian - Fachada residencial - Fachada"
       },
       {
         "src": "Portifolio/WILLIAN/FACHADA 03.png",
-        "alt": "Residencia Willian - FACHADA 03"
+        "alt": "Residência Willian - Fachada residencial - Fachada"
       }
     ]
   }

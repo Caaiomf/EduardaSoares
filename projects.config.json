@@ -1,0 +1,120 @@
+{
+  "Aline e Flavio": {
+    "title": "Residência Aline e Flávio",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Fachada residencial",
+    "year": "2026",
+    "summary": "Estudo de fachada com volume limpo, aberturas verticais e composição contemporânea.",
+    "coverIncludes": "FACHADA 01- 01",
+    "featured": true
+  },
+  "Claverson": {
+    "title": "Residência Claverson",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Fachada residencial",
+    "year": "2026",
+    "summary": "Proposta de fachada com leitura horizontal e materiais de baixa manutenção.",
+    "coverIncludes": "Fachada 01 - 01"
+  },
+  "Dennis": {
+    "title": "Residência Dennis",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Fachada residencial",
+    "year": "2026",
+    "summary": "Composição frontal com aberturas ritmadas, sombra e presença urbana.",
+    "coverIncludes": "FACHADA 01 - 01"
+  },
+  "DIEMINI": {
+    "title": "Projeto Diemini",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Estudo residencial",
+    "year": "2025",
+    "summary": "Estudo de volumetria, acesso e materialidade para uma residência compacta.",
+    "coverIncludes": "Final 01"
+  },
+  "EDVALDO": {
+    "title": "Residência Edvaldo",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Residencial",
+    "year": "2025",
+    "summary": "Projeto residencial com imagens de apoio para apresentação e tomada de decisão.",
+    "coverIncludes": "Foto 01"
+  },
+  "Elaine": {
+    "title": "Casa Elaine",
+    "category": "interiores",
+    "categoryLabel": "Interiores",
+    "type": "Ambientes residenciais",
+    "year": "2025",
+    "summary": "Conjunto de ambientes internos e externos: escritório, garagem, lavabo, piscina e varanda.",
+    "coverIncludes": "piscina 01"
+  },
+  "IDAIR - LOJA": {
+    "title": "Loja Idair",
+    "category": "comercial",
+    "categoryLabel": "Comercial",
+    "type": "Projeto comercial",
+    "year": "2025",
+    "summary": "Estudo comercial para loja, fachada e apresentação de conceito.",
+    "coverIncludes": "FINAL 01 - 01"
+  },
+  "JULIANA": {
+    "title": "Residência Juliana",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Fachada residencial",
+    "year": "2025",
+    "summary": "Fachada residencial com composição de planos, aberturas e materialidade clara.",
+    "coverIncludes": "FACHADA 02 - 01"
+  },
+  "Marcelo": {
+    "title": "Residência Marcelo",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Residencial completo",
+    "year": "2025",
+    "summary": "Sequência de estudos, finais e imagens de acompanhamento para projeto residencial.",
+    "coverIncludes": "Final -01"
+  },
+  "PEDRO": {
+    "title": "Estudo Pedro",
+    "category": "estudo",
+    "categoryLabel": "Estudo",
+    "type": "Estudo de projeto",
+    "year": "2025",
+    "summary": "Imagem de estudo para avaliação de conceito e comunicação da proposta.",
+    "coverIncludes": "Duda 4"
+  },
+  "RENAN": {
+    "title": "Residência Renan",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Render final",
+    "year": "2025",
+    "summary": "Renders finais para apresentação de proposta residencial.",
+    "coverIncludes": "RENDER FINAL FINAL 02 - 01"
+  },
+  "THALES E SARA": {
+    "title": "Casa Thales e Sara",
+    "category": "interiores",
+    "categoryLabel": "Interiores",
+    "type": "Residencial e interiores",
+    "year": "2025",
+    "summary": "Projeto com cozinha, sala de TV e fachada, conectando interiores e linguagem externa.",
+    "coverIncludes": "FACHADA 02 - 01"
+  },
+  "WILLIAN": {
+    "title": "Residência Willian",
+    "category": "residencial",
+    "categoryLabel": "Residencial",
+    "type": "Fachada residencial",
+    "year": "2025",
+    "summary": "Estudos de fachada para residência com três alternativas de visualização.",
+    "coverIncludes": "FACHADA 01"
+  }
+}

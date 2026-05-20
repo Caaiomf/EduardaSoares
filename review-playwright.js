@@ -89,6 +89,18 @@ async function reviewViewport(browser, viewport) {
 
     return {
       title: document.title,
+      description: document.querySelector('meta[name="description"]')?.content,
+      hasRegionalSection: Boolean(document.querySelector("#regiao")),
+      structuredDataTypes: [...document.querySelectorAll('script[type="application/ld+json"]')]
+        .flatMap((script) => {
+          try {
+            const data = JSON.parse(script.textContent);
+            return data["@graph"]?.map((item) => item["@type"]) || data["@type"] || [];
+          } catch {
+            return [];
+          }
+        })
+        .flat(),
       height: Math.max(body.scrollHeight, html.scrollHeight),
       width: Math.max(body.scrollWidth, html.scrollWidth),
       viewportWidth: window.innerWidth,
@@ -114,6 +126,8 @@ async function reviewViewport(browser, viewport) {
     title: document.querySelector("[data-dialog-title]")?.textContent.trim(),
     thumbs: document.querySelectorAll("[data-dialog-thumbs] button").length,
     coverLoaded: Boolean(document.querySelector("[data-dialog-cover]")?.complete),
+    coverFit: getComputedStyle(document.querySelector("[data-dialog-cover]")).objectFit,
+    thumbFit: getComputedStyle(document.querySelector("[data-dialog-thumbs] img")).objectFit,
   }));
   await page.click("[data-dialog-close]");
 

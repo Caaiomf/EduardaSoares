@@ -37,7 +37,7 @@
     </g>
     <text class="nav-title" x="250" y="108" fill="currentColor">EDUARDA SOARES</text>
     <circle cx="242" cy="140" r="3" fill="currentColor"/>
-    <text class="nav-subtitle" x="254" y="146" fill="currentColor">ARQUITETURA E URBANISMO</text>
+    <text class="nav-subtitle" x="461" y="146" text-anchor="middle" fill="currentColor">ARQUITETURA E URBANISMO</text>
     <circle cx="680" cy="140" r="3" fill="currentColor"/>
   </g>
 </svg>

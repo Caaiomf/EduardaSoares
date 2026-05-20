@@ -12,6 +12,7 @@ const projectTypeName = document.querySelector("[data-project-type-name]");
 const projectTypeCopy = document.querySelector("[data-project-type-copy]");
 const dialog = document.querySelector("[data-project-dialog]");
 const dialogClose = document.querySelector("[data-dialog-close]");
+const dialogMain = document.querySelector(".dialog-main");
 const dialogCover = document.querySelector("[data-dialog-cover]");
 const dialogCategory = document.querySelector("[data-dialog-category]");
 const dialogTitle = document.querySelector("[data-dialog-title]");
@@ -19,6 +20,10 @@ const dialogSummary = document.querySelector("[data-dialog-summary]");
 const dialogThumbs = document.querySelector("[data-dialog-thumbs]");
 const form = document.querySelector("[data-contact-form]");
 const formNote = document.querySelector("[data-form-note]");
+const whatsappLinks = document.querySelectorAll("[data-whatsapp-link]");
+
+const whatsappNumber = "5518991745227";
+const whatsappDefaultMessage = "Olá, vi seu trabalho pelo seu site e gostaria de falar sobre um projeto.";
 
 const categoryLabels = {
   all: "Todos",
@@ -29,14 +34,36 @@ const categoryLabels = {
 };
 
 const categoryIntro = {
-  residencial: "{count} de casas, fachadas e implantacoes com leitura clara de acesso e cotidiano.",
-  interiores: "{count} de ambientes internos, marcenaria, luz e composicao para uso diario.",
-  comercial: "{count} comercial com fachada, vitrine e presenca urbana.",
-  estudo: "{count} de conceito para testar linguagem, volume e implantacao.",
+  residencial: "{count} de casas, fachadas e implantações com leitura clara de acesso e cotidiano.",
+  interiores: "{count} de ambientes internos, marcenaria, luz e composição para uso diário.",
+  comercial: "{count} comercial com fachada, vitrine e presença urbana.",
+  estudo: "{count} de conceito para testar linguagem, volume e implantação.",
 };
 
 let projectTypeIndex = 0;
 let projectTypeTimer;
+
+function absoluteUrl(value) {
+  try {
+    return new URL(value, window.location.href).href;
+  } catch {
+    return value;
+  }
+}
+
+function cssImageUrl(src) {
+  return `url('${src.replace(/'/g, "\\'")}')`;
+}
+
+function whatsappUrl(message) {
+  return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+}
+
+function syncWhatsappLinks() {
+  whatsappLinks.forEach((link) => {
+    link.href = whatsappUrl(whatsappDefaultMessage);
+  });
+}
 
 function updateHeader() {
   header.classList.toggle("is-scrolled", window.scrollY > 24);
@@ -52,6 +79,116 @@ function renderHero() {
 
   heroImage.src = project.cover;
   heroImage.alt = project.coverAlt || project.title;
+}
+
+function city(name) {
+  return {
+    "@type": "City",
+    name,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: name,
+      addressRegion: "SP",
+      addressCountry: "BR",
+    },
+  };
+}
+
+function renderStructuredData() {
+  const graph = [
+    {
+      "@type": "WebSite",
+      "@id": `${absoluteUrl("#site")}`,
+      name: "Eduarda Soares Arquitetura e Urbanismo",
+      inLanguage: "pt-BR",
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${absoluteUrl("#pagina")}`,
+      name: document.title,
+      description: document.querySelector('meta[name="description"]')?.content,
+      isPartOf: { "@id": `${absoluteUrl("#site")}` },
+      about: { "@id": `${absoluteUrl("#negocio")}` },
+      inLanguage: "pt-BR",
+    },
+    {
+      "@type": "HomeAndConstructionBusiness",
+      "@id": `${absoluteUrl("#negocio")}`,
+      name: "Eduarda Soares Arquitetura e Urbanismo",
+      description: "Projetos de arquitetura, interiores, reformas, fachadas e consultoria para Birigui, Araçatuba e região.",
+      image: absoluteUrl(getHeroProject()?.cover || "assets/brand/logo-navbar-olive.svg"),
+      logo: absoluteUrl("assets/brand/logo-navbar-olive.svg"),
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Birigui",
+        addressRegion: "SP",
+        addressCountry: "BR",
+      },
+      areaServed: [
+        city("Birigui"),
+        city("Araçatuba"),
+        city("Penápolis"),
+        city("Buritama"),
+        city("Guararapes"),
+        city("Bilac"),
+        city("Coroados"),
+      ],
+      priceRange: "Sob consulta",
+      knowsAbout: [
+        "arquitetura em Birigui",
+        "arquitetura em Araçatuba",
+        "projeto arquitetônico residencial",
+        "arquitetura de interiores",
+        "fachadas residenciais",
+        "reformas residenciais",
+        "urbanismo",
+      ],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Serviços de arquitetura e urbanismo",
+        itemListElement: [
+          "Projeto arquitetônico",
+          "Arquitetura de interiores",
+          "Consultoria para reforma",
+          "Estudos de fachada",
+          "Urbanismo e implantação",
+        ].map((name) => ({
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name,
+            areaServed: ["Birigui", "Araçatuba", "Região noroeste paulista"],
+          },
+        })),
+      },
+    },
+    {
+      "@type": "ItemList",
+      "@id": `${absoluteUrl("#lista-projetos")}`,
+      name: "Portfólio de projetos de arquitetura",
+      itemListElement: projects.map((project, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        item: {
+          "@type": "CreativeWork",
+          name: project.title,
+          description: project.summary,
+          image: absoluteUrl(project.cover),
+          url: absoluteUrl(`#projeto-${project.id}`),
+          genre: project.categoryLabel,
+        },
+      })),
+    },
+  ];
+
+  let script = document.querySelector("#seo-structured-data");
+  if (!script) {
+    script = document.createElement("script");
+    script.id = "seo-structured-data";
+    script.type = "application/ld+json";
+    document.head.appendChild(script);
+  }
+  script.textContent = JSON.stringify({ "@context": "https://schema.org", "@graph": graph });
 }
 
 function getCategories() {
@@ -149,9 +286,9 @@ function renderFilters() {
 function projectCard(project, index) {
   const featured = project.featured || index === 0 ? " featured" : "";
   return `
-    <article class="project-card${featured}" data-category="${project.category}">
+    <article class="project-card${featured}" data-category="${project.category}" id="projeto-${project.id}">
       <button type="button" data-project-id="${project.id}" aria-label="Abrir ${project.title}">
-        <img src="${project.cover}" alt="${project.coverAlt || project.title}" loading="${index < 3 ? "eager" : "lazy"}">
+        <img src="${project.cover}" alt="${project.coverAlt || project.title}" loading="${index < 3 ? "eager" : "lazy"}" decoding="async">
         <div class="project-meta">
           <p>${project.categoryLabel} - ${project.year}</p>
           <h3>${project.title}</h3>
@@ -173,20 +310,25 @@ function setActiveFilter(filter) {
   });
 }
 
+function setDialogImage(src, alt) {
+  dialogCover.src = src;
+  dialogCover.alt = alt;
+  dialogMain?.style.setProperty("--dialog-image", cssImageUrl(src));
+}
+
 function openProject(projectId) {
   const project = projects.find((item) => item.id === projectId);
   if (!project) return;
 
-  dialogCover.src = project.cover;
-  dialogCover.alt = project.coverAlt || project.title;
+  setDialogImage(project.cover, project.coverAlt || project.title);
   dialogCategory.textContent = `${project.categoryLabel} - ${project.year}`;
   dialogTitle.textContent = project.title;
   dialogSummary.textContent = project.summary;
 
   dialogThumbs.innerHTML = project.images
     .map((image, index) => `
-      <button class="${image.src === project.cover ? "active" : ""}" type="button" data-image-src="${image.src}" data-image-alt="${image.alt}">
-        <img src="${image.src}" alt="${image.alt}" loading="${index < 6 ? "eager" : "lazy"}">
+      <button class="${image.src === project.cover ? "active" : ""}" type="button" data-image-src="${image.src}" data-image-alt="${image.alt}" style="--thumb-image: ${cssImageUrl(image.src)}">
+        <img src="${image.src}" alt="${image.alt}" loading="${index < 6 ? "eager" : "lazy"}" decoding="async">
       </button>
     `)
     .join("");
@@ -199,8 +341,7 @@ function openProject(projectId) {
 }
 
 function selectDialogImage(button) {
-  dialogCover.src = button.dataset.imageSrc;
-  dialogCover.alt = button.dataset.imageAlt;
+  setDialogImage(button.dataset.imageSrc, button.dataset.imageAlt);
   dialogThumbs.querySelectorAll("button").forEach((item) => item.classList.remove("active"));
   button.classList.add("active");
 }
@@ -210,6 +351,8 @@ renderHero();
 renderFilters();
 renderProjects();
 startProjectTypeRotation();
+renderStructuredData();
+syncWhatsappLinks();
 
 window.addEventListener("scroll", updateHeader, { passive: true });
 
@@ -263,7 +406,26 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  const name = new FormData(form).get("nome")?.toString().trim() || "seu contato";
-  formNote.textContent = `Obrigada, ${name}. Sua mensagem ficou pronta para envio.`;
+  const data = new FormData(form);
+  const name = data.get("nome")?.toString().trim() || "seu contato";
+  const email = data.get("email")?.toString().trim() || "Não informado";
+  const type = data.get("tipo")?.toString().trim() || "Não informado";
+  const message = data.get("mensagem")?.toString().trim() || "Não informado";
+  const whatsappMessage = [
+    whatsappDefaultMessage,
+    "",
+    `Nome: ${name}`,
+    `Email: ${email}`,
+    `Tipo de projeto: ${type}`,
+    "",
+    `Mensagem: ${message}`,
+  ].join("\n");
+  const opened = window.open(whatsappUrl(whatsappMessage), "_blank", "noopener");
+
+  if (!opened) {
+    window.location.href = whatsappUrl(whatsappMessage);
+  }
+
+  formNote.textContent = `Perfeito, ${name}. O WhatsApp foi aberto com sua mensagem.`;
   form.reset();
 });

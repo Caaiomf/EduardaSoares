@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin | Eduarda Soares</title>
+    <link rel="stylesheet" href="/admin/admin.css">
+  </head>
+  <body>
+    <header class="admin-header">
+      <img src="/assets/brand/logo-navbar-olive.svg" alt="Eduarda Soares Arquitetura e Urbanismo">
+      <nav>
+        <a href="/" target="_blank" rel="noreferrer">Ver site</a>
+        <form action="/admin/logout" method="post">
+          <button type="submit">Sair</button>
+        </form>
+      </nav>
+    </header>
+
+    <main class="admin-shell">
+      <section class="panel">
+        <div class="panel-heading">
+          <p>Projetos</p>
+          <h1>Cadastro do portfólio</h1>
+        </div>
+
+        <div class="project-list" data-project-list></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-heading">
+          <p>Editar</p>
+          <h2 data-form-title>Novo projeto</h2>
+        </div>
+
+        <form class="project-form" data-project-form>
+          <label>
+            Pasta em Portifolio
+            <input name="folder" type="text" required placeholder="Ex: Casa Nova Birigui">
+          </label>
+
+          <label>
+            Nome público
+            <input name="title" type="text" required placeholder="Ex: Casa Nova Birigui">
+          </label>
+
+          <div class="form-row">
+            <label>
+              Categoria
+              <select name="category" required>
+                <option value="residencial" data-label="Residencial">Residencial</option>
+                <option value="interiores" data-label="Interiores">Interiores</option>
+                <option value="comercial" data-label="Comercial">Comercial</option>
+                <option value="estudo" data-label="Estudo">Estudo</option>
+              </select>
+            </label>
+
+            <label>
+              Ano
+              <input name="year" type="number" min="2000" max="2100" required>
+            </label>
+          </div>
+
+          <label>
+            Tipo
+            <input name="type" type="text" required placeholder="Ex: Fachada residencial">
+          </label>
+
+          <label>
+            Resumo
+            <textarea name="summary" rows="4" required></textarea>
+          </label>
+
+          <label>
+            Trecho do nome da imagem de capa
+            <input name="coverIncludes" type="text" placeholder="Ex: FACHADA 01">
+          </label>
+
+          <label class="check">
+            <input name="featured" type="checkbox">
+            Usar como destaque principal
+          </label>
+
+          <label>
+            Enviar imagens
+            <input name="images" type="file" accept="image/*" multiple>
+          </label>
+
+          <input name="categoryLabel" type="hidden" value="Residencial">
+
+          <div class="actions">
+            <button type="submit">Salvar projeto</button>
+            <button type="button" data-new-project>Novo</button>
+          </div>
+
+          <p class="status" data-status role="status"></p>
+        </form>
+
+        <div class="image-admin">
+          <h3>Imagens do projeto</h3>
+          <div class="image-grid" data-image-grid></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/admin/admin.js"></script>
+  </body>
+</html>
