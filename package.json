@@ -1,0 +1,9 @@
+{
+  "name": "eduarda-soares-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-project-data.js",
+    "review": "node review-playwright.js"
+  }
+}

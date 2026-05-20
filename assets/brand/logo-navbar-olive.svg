@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-label="Eduarda Soares Arquitetura e Urbanismo">
+
+  <style>
+    .brand {
+      color: #34431d;
+      font-family: "Century Gothic", "Avenir Next", Montserrat, Arial, sans-serif;
+      font-weight: 400;
+      letter-spacing: 0;
+    }
+    .title {
+      font-size: 68px;
+      letter-spacing: 8px;
+    }
+    .subtitle {
+      font-size: 26px;
+      letter-spacing: 8px;
+    }
+    .nav-title {
+      font-size: 48px;
+      letter-spacing: 6px;
+    }
+    .nav-subtitle {
+      font-size: 17px;
+      letter-spacing: 6px;
+    }
+  </style>
+  <g class="brand">
+    <g transform="translate(50 46) scale(0.244)">
+<g id="mark" fill="none" stroke="currentColor" stroke-linejoin="round">
+    <path d="M 68 147 A 227 227 0 1 1 82 403" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="43" cy="282" r="8" fill="currentColor" stroke="none"/>
+    <path d="M 185 160 H 243" stroke-width="8" stroke-linecap="butt"/>
+    <path d="M 243 221 H 185 V 295 H 243" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter"/>
+    <path d="M 335 96 L 203 382" stroke-width="5" stroke-linecap="butt"/>
+    <path d="M 272 282 C 296 318 326 350 309 381 C 290 415 242 397 237 361" stroke-width="8" stroke-linecap="round"/>
+  </g>
+    </g>
+    <text class="nav-title" x="250" y="108" fill="currentColor">EDUARDA SOARES</text>
+    <circle cx="242" cy="140" r="3" fill="currentColor"/>
+    <text class="nav-subtitle" x="254" y="146" fill="currentColor">ARQUITETURA E URBANISMO</text>
+    <circle cx="680" cy="140" r="3" fill="currentColor"/>
+  </g>
+</svg>
