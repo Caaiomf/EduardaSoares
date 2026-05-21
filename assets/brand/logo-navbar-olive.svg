@@ -20,8 +20,8 @@
       letter-spacing: 6px;
     }
     .nav-subtitle {
-      font-size: 17px;
-      letter-spacing: 6px;
+      font-size: 20px;
+      letter-spacing: 5px;
     }
   </style>
   <g class="brand">

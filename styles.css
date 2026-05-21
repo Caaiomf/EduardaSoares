@@ -15,7 +15,7 @@
   --white: #fffdf7;
   --radius: 8px;
   --max: 1180px;
-  --header-h: 78px;
+  --header-h: 86px;
 }
 
 * {
@@ -88,8 +88,8 @@ textarea {
 .brand {
   display: inline-flex;
   align-items: center;
-  width: clamp(190px, 22vw, 300px);
-  min-width: 170px;
+  width: clamp(230px, 24vw, 350px);
+  min-width: 210px;
 }
 
 .brand img {
@@ -904,9 +904,21 @@ h1 {
   outline-offset: 3px;
 }
 
+@media (max-width: 1160px) and (min-width: 961px) {
+  .brand {
+    width: 230px;
+    min-width: 210px;
+  }
+
+  .site-nav {
+    gap: 18px;
+    font-size: 0.78rem;
+  }
+}
+
 @media (max-width: 960px) {
   .site-header {
-    height: 68px;
+    height: 74px;
   }
 
   .menu-toggle {
@@ -915,7 +927,7 @@ h1 {
 
   .site-nav {
     position: fixed;
-    top: 68px;
+    top: 74px;
     left: 18px;
     right: 18px;
     display: none;
@@ -994,7 +1006,8 @@ h1 {
 
 @media (max-width: 640px) {
   .brand {
-    width: 190px;
+    width: min(220px, calc(100% - 112px));
+    min-width: 0;
   }
 
   .hero-content {
